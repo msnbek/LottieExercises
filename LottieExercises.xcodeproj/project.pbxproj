@@ -10,9 +10,15 @@
 		ED290C7B2AD43E6300EF64A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED290C7A2AD43E6300EF64A3 /* AppDelegate.swift */; };
 		ED290C7D2AD43E6300EF64A3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED290C7C2AD43E6300EF64A3 /* SceneDelegate.swift */; };
 		ED290C7F2AD43E6300EF64A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED290C7E2AD43E6300EF64A3 /* ViewController.swift */; };
-		ED290C822AD43E6300EF64A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED290C802AD43E6300EF64A3 /* Main.storyboard */; };
 		ED290C842AD43E6500EF64A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED290C832AD43E6500EF64A3 /* Assets.xcassets */; };
 		ED290C872AD43E6500EF64A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED290C852AD43E6500EF64A3 /* LaunchScreen.storyboard */; };
+		ED290C902AD43F1A00EF64A3 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = ED290C8F2AD43F1A00EF64A3 /* SnapKit */; };
+		ED290C922AD43F1A00EF64A3 /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = ED290C912AD43F1A00EF64A3 /* SnapKit-Dynamic */; };
+		ED290C952AD43F2C00EF64A3 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = ED290C942AD43F2C00EF64A3 /* Lottie */; };
+		ED7350AE2AD530C500E27AD3 /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7350AD2AD530C500E27AD3 /* LoadingViewController.swift */; };
+		ED7350B02AD532CB00E27AD3 /* dotloading.json in Resources */ = {isa = PBXBuildFile; fileRef = ED7350AF2AD532CB00E27AD3 /* dotloading.json */; };
+		ED7350B22AD5365A00E27AD3 /* try.json in Resources */ = {isa = PBXBuildFile; fileRef = ED7350B12AD5365A00E27AD3 /* try.json */; };
+		ED7350B42AD53C6A00E27AD3 /* dragonred.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ED7350B32AD53C6A00E27AD3 /* dragonred.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +26,13 @@
 		ED290C7A2AD43E6300EF64A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ED290C7C2AD43E6300EF64A3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		ED290C7E2AD43E6300EF64A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		ED290C812AD43E6300EF64A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ED290C832AD43E6500EF64A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED290C862AD43E6500EF64A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED290C882AD43E6500EF64A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED7350AD2AD530C500E27AD3 /* LoadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
+		ED7350AF2AD532CB00E27AD3 /* dotloading.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = dotloading.json; path = ../../../../Downloads/dotloading.json; sourceTree = "<group>"; };
+		ED7350B12AD5365A00E27AD3 /* try.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = try.json; path = ../../../../Downloads/try.json; sourceTree = "<group>"; };
+		ED7350B32AD53C6A00E27AD3 /* dragonred.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = dragonred.jpg; path = ../../../../Downloads/dragonred.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +40,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED290C902AD43F1A00EF64A3 /* SnapKit in Frameworks */,
+				ED290C922AD43F1A00EF64A3 /* SnapKit-Dynamic in Frameworks */,
+				ED290C952AD43F2C00EF64A3 /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,10 +71,13 @@
 				ED290C7A2AD43E6300EF64A3 /* AppDelegate.swift */,
 				ED290C7C2AD43E6300EF64A3 /* SceneDelegate.swift */,
 				ED290C7E2AD43E6300EF64A3 /* ViewController.swift */,
-				ED290C802AD43E6300EF64A3 /* Main.storyboard */,
+				ED7350AD2AD530C500E27AD3 /* LoadingViewController.swift */,
 				ED290C832AD43E6500EF64A3 /* Assets.xcassets */,
 				ED290C852AD43E6500EF64A3 /* LaunchScreen.storyboard */,
 				ED290C882AD43E6500EF64A3 /* Info.plist */,
+				ED7350AF2AD532CB00E27AD3 /* dotloading.json */,
+				ED7350B12AD5365A00E27AD3 /* try.json */,
+				ED7350B32AD53C6A00E27AD3 /* dragonred.jpg */,
 			);
 			path = LottieExercises;
 			sourceTree = "<group>";
@@ -83,6 +98,11 @@
 			dependencies = (
 			);
 			name = LottieExercises;
+			packageProductDependencies = (
+				ED290C8F2AD43F1A00EF64A3 /* SnapKit */,
+				ED290C912AD43F1A00EF64A3 /* SnapKit-Dynamic */,
+				ED290C942AD43F2C00EF64A3 /* Lottie */,
+			);
 			productName = LottieExercises;
 			productReference = ED290C772AD43E6300EF64A3 /* LottieExercises.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +131,10 @@
 				Base,
 			);
 			mainGroup = ED290C6E2AD43E6300EF64A3;
+			packageReferences = (
+				ED290C8E2AD43F1A00EF64A3 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				ED290C932AD43F2C00EF64A3 /* XCRemoteSwiftPackageReference "lottie-spm" */,
+			);
 			productRefGroup = ED290C782AD43E6300EF64A3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,8 +150,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED290C872AD43E6500EF64A3 /* LaunchScreen.storyboard in Resources */,
+				ED7350B02AD532CB00E27AD3 /* dotloading.json in Resources */,
 				ED290C842AD43E6500EF64A3 /* Assets.xcassets in Resources */,
-				ED290C822AD43E6300EF64A3 /* Main.storyboard in Resources */,
+				ED7350B22AD5365A00E27AD3 /* try.json in Resources */,
+				ED7350B42AD53C6A00E27AD3 /* dragonred.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,20 +167,13 @@
 				ED290C7F2AD43E6300EF64A3 /* ViewController.swift in Sources */,
 				ED290C7B2AD43E6300EF64A3 /* AppDelegate.swift in Sources */,
 				ED290C7D2AD43E6300EF64A3 /* SceneDelegate.swift in Sources */,
+				ED7350AE2AD530C500E27AD3 /* LoadingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		ED290C802AD43E6300EF64A3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				ED290C812AD43E6300EF64A3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		ED290C852AD43E6500EF64A3 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -297,7 +316,6 @@
 				INFOPLIST_FILE = LottieExercises/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -325,7 +343,6 @@
 				INFOPLIST_FILE = LottieExercises/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -363,6 +380,43 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		ED290C8E2AD43F1A00EF64A3 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.6.0;
+			};
+		};
+		ED290C932AD43F2C00EF64A3 /* XCRemoteSwiftPackageReference "lottie-spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-spm.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.3.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		ED290C8F2AD43F1A00EF64A3 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ED290C8E2AD43F1A00EF64A3 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		ED290C912AD43F1A00EF64A3 /* SnapKit-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ED290C8E2AD43F1A00EF64A3 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = "SnapKit-Dynamic";
+		};
+		ED290C942AD43F2C00EF64A3 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ED290C932AD43F2C00EF64A3 /* XCRemoteSwiftPackageReference "lottie-spm" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = ED290C6F2AD43E6300EF64A3 /* Project object */;
 }
